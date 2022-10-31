@@ -1,0 +1,48 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    background-color: blue;
+
+}
+
+.nav ul{
+    margin: 0%;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav{
+    position: fixed;
+    width: 100%;
+}
+
+#welcome-section{
+    background-image: url(/images/welcome\ section.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+}
+
+#about{
+    height: 100vh;
+}
+
+#utplassering{
+    height: 100vh;
+}
+
+.utplassering-pictures img{
+    height: 50%;
+    width: 50%;
+}
